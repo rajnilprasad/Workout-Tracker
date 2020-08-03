@@ -16,11 +16,7 @@ module.exports = function (app) {
 };
 
 
-// require('./routes/html-routes.js')(app);
+// require('./routes/routes.js')(app);
 
 // HTML routes needed
 
-/*
-"/" {GET}
-"/stats" {GET}
-*/
