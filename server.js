@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const db = require('./workout');
+const db = require('./models/workout');   
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
